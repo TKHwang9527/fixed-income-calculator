@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(& \"venv\\\\Scripts\\\\python.exe\" \"C:\\\\Users\\\\kai78\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-kai78-OneDrive-Desktop-Python-Credit-Calculator-fixed-income-calculator\\\\2b404a50-b496-4960-b622-65e6a9196ec5\\\\scratchpad\\\\verify.py\")",
+      "PowerShell(& \"venv\\\\Scripts\\\\python.exe\" -m pytest tests\\\\test_bond_pricing.py -v 2>&1 | Select-Object -Last 60)",
+      "PowerShell(& \"venv\\\\Scripts\\\\python.exe\" -c \"import ast; ast.parse\\(open\\('app/calculator_gui.py'\\).read\\(\\)\\); print\\('syntax OK'\\)\")",
+      "PowerShell(& \"venv\\\\Scripts\\\\python.exe\" -m pytest tests/ -v 2>&1)",
+      "PowerShell(python -m pytest tests/test_binomial_tree.py -v 2>&1)",
+      "PowerShell(& \".\\\\venv\\\\Scripts\\\\python.exe\" -m pytest tests/test_binomial_tree.py -v 2>&1)",
+      "PowerShell(& \".\\\\venv\\\\Scripts\\\\python.exe\" -m pytest 2>&1)",
+      "PowerShell(& \".\\\\venv\\\\Scripts\\\\python.exe\" -c \"import ast; ast.parse\\(open\\('app/streamlit_app.py'\\).read\\(\\)\\)\")"
+    ]
+  }
+}
